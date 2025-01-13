@@ -1,0 +1,45 @@
+h1{
+    color: rgb(255, 0, 0);
+    font-family: 'fira code';
+    text-align: center;
+    text-decoration:underline;
+}
+p{
+    color: rgb(149, 24, 24);
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 700px;
+    font-style:normal;
+    text-align:justify;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform:none;
+    text-shadow:0px, 0px, 10px, black;
+}
+body{
+    background: #FABADA;;
+}
+
+
+/*
+-En font-family se puede definir una fuente o varias, en caso
+de que el navegador no interpretase la primera seguiría con la
+segunda y así sucesivamente, es necesario definir la fuente
+entre comillas simples o dobles si el nombre tiene más de una
+palabra, algunas fuentes se nombran con una sola palabra o
+permiten su definición con un guión intermedio, en tal caso
+no son necesarias las comillas
+
+-En la propiedad font-weight se establece el ancho del trazo
+de la letra dentro de los rangos que permite la fuente, hay
+fuentes programadas con más rangos o con menos, el valor bold
+equivale a valor 700 y bolder al siguiente valor admitido por
+la fuente partiendo del valor por defecto de dicha fuente
+
+-En font-style italic corresponde a cursiva y oblique también
+pero con menos inclinación (varía según la fuente), también se
+puede definir el grado de inclinación añadiendo después de oblique
+50deg (función experimental no disponible en todas las fuentes
+ni en todos los navegadores)  
+
+*/
