@@ -1,0 +1,39 @@
+.formulario{
+    background: red;
+    padding: 30px;
+  
+}
+
+.formulario_input{
+    padding: 6px 10px;
+    width: 80%;
+    background: black;
+    color: white;
+    margin: 10px;
+
+}
+
+.formulario_submit{
+    padding: 10px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    width: 20%;
+    background: yellow;
+    border-radius: 10px;
+    color:black
+}
+
+/*
+El padding es el espacio que hay entre el elemento y el borde de la caja (margen interior)
+a diferencia del margin que es el espacio que hay entre el borde y la siguiente caja (margen exterior)
+
+-Si en el padding definimos un valor se aplicará por igual a los 4 lados
+-Si definimos 4 valores se aplicarán en el orden de las agujas del reloj empezando por las 12
+(arriba-derecha-abajo-izquierda)
+-Si definimos 2 valores se aplicarán en orden arriba-abajo y derecha-izquierda
+-Si queremos definir un lado concreto:
+    -arriba: padding-top
+    -derecha: padding-right
+    -abajo: padding-bottom
+    -izquierda: padding.left
+*/

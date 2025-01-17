@@ -1,0 +1,21 @@
+h1{
+    color: black;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    
+   
+}
+div{
+    background: red;
+    width: 200px;
+    height: 200px;
+   
+}
+
+/*
+para definir estilo de una class punto antes de su nombre
+para definir estilo de id almohadilla antes de su nombre
+
+*/

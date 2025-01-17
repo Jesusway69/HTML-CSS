@@ -5,19 +5,19 @@ h1{
     text-decoration:underline;
 }
 p{
-    color: rgba(242, 194, 194, 0.415);
-    font-family: Ubuntu;
-    font-size: 12px;
-    font-weight: 700px;
+    color: rgba(47, 42, 42, 0.415);
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 100;
     font-style:normal;
     text-align:justify;
     line-height: 1.5;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform:none;
     text-shadow:0px, 0px, 10px, black;
 }
 body{
-    background: #6a64eaf7;
+    background: #aeabeff7;
 }
 
 
