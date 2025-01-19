@@ -1,0 +1,31 @@
+div{
+    background: blue;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(223, 238, 12);
+    border: 3px solid black;
+    
+}
+.uno{
+    border: 3px solid maroon;
+    border-radius: 5px 10px;
+}
+
+.dos{
+    border: 3px solid violet;
+    border-radius: 40%;
+}
+.tres{
+    border: 3px solid mediumblue;
+    border-top-right-radius: 10px;
+}
+.cuatro{
+    border: 3px solid #fabada;
+    border-radius: 3px 2px 50px 20px;
+}
+/*
+Si no especificamos qué propiedad le damos a border
+podemos definirla en el orden: width, style y color
+*/
