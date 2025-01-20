@@ -8,22 +8,15 @@ body{
     background: red;
     margin: 10px;
     border: 10px solid black;
-  
-    
-    text-align-last: center;
+
 }
 
 .default-box{
     box-sizing: content-box;
-    padding: 30px;
-    width: 300px;
-    height: 300px;
-
+    padding: 30px; 
 }
 
 .new-box{
     box-sizing: border-box;
-    padding: 30px;
-    width: 300px;
-    height: 300px;
+    padding: 30px;    
 }

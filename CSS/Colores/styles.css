@@ -1,0 +1,71 @@
+.box{
+    box-sizing: content-box;
+    width: 100px;
+    height: 100px;
+    background: black;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.hex-caf{
+    background: #caf;
+}
+.hex-21b{
+    background: #21b;
+}
+.hex-84a{
+    background: #84a;
+}
+.hex-fbd{
+    background: #fbd;
+}
+.hex-259{
+    background: #259;
+}
+.hex-dd1{
+    background: #dd1;
+}
+.rgb-554500{
+    background: #554500;
+}
+.rgb-10010000{
+    background: rgb(100,100, 00);
+}
+.rgb-0025014{
+    background: rgb(00, 250, 14);
+}
+.rgb-200100100{
+    background: rgb(200, 100, 100);
+}
+.rgb-302580{
+    background: rgb(30, 25, 80);
+    color: whitesmoke
+}
+.rgb-00200100{
+    background: rgb(00, 200, 100);
+}
+.rgb-00250150{
+    background: rgb(00, 250, 150);
+}
+.hsl-3302560{
+    background: hsl(330, 25%, 60%);
+}
+.hsl-1005090{
+    background: hsl(100, 50%, 90%);
+}
+.hsl-3601020{
+    background: hsl(360, 10%, 20%);
+    color: whitesmoke;
+}
+.hsl-2104080{
+    background: hsl(210, 40%, 80%);
+}
+.hsl-205030{
+    background: hsl(20, 50%, 30%);
+}
+.hsl-505050{
+    background: hsl(50, 50%, 50%);
+}
+.hsl-3010050{
+    background: hsl(30, 100%, 50%);
+}
