@@ -1,0 +1,84 @@
+
+body{
+    border-right: 2px solid #999;
+    border-bottom: 2px solid #999;
+    width: 1000px;
+    height: 1000px;
+    font-size: 10px;
+    margin: 50px;
+
+}
+
+div{
+    background: #ededed;
+    padding: 20px;
+    font-size: 20px;
+}
+.percent{
+    width: 50%;
+    height: 50%;
+    background: red;
+    margin: 10px;
+}
+.em{
+    background: red;
+    width: 0.5em;
+    height: 0.5em;
+
+}
+.rem{
+    background: red;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 5px;
+    font-size: 3em;
+    color: black;
+    background: yellow;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: 0;
+    border-right: 2px solid #999;
+    border-bottom: 2px solid #999;
+    border-radius: 2px; 
+    margin-left: 50%;
+}
+span{
+    
+    color: #999;
+    font-size: 50%;
+
+
+}
+
+p{
+    font-family: 'fira code';
+    color: #555;
+    margin-right: 50%;
+    font-size: 2em;
+}
+
+
+
+/*
+MEDIDAS ABSOLUTAS
+-----------------
+px -> píxeles (unidad mínima de representación en pantalla, 1/96 de 1 in)
+pc -> picas (1/6 de una in)
+pt -> puntos (1/72 de una in)
+Q  -> cuartos (1/4 de mm)
+in -> pulgadas (2,54cm, 96px)
+cm -> milímetros (1/10 de cm)
+mm -> centímetros (96px/2,54)
+-Las medidas absolutas se usan preferentemente a efectos de impresión física-
+
+MEDIDAS RELATIVAS
+-----------------
+em -> (Tamaño de letra del elemento padre, en el caso de propiedades tipográficas como font-size,
+ y tamaño de la fuente del propio elemento en el caso de otras propiedades, como width.)
+rem -> (Tamaño de la letra del elemento raíz, si no existe por defecto es 16px)
+%   -> (porcentaje respecto al mismo atributo del elemento padre)
+*/
