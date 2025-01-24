@@ -1,7 +1,6 @@
 
 body{
-    border-right: 2px solid #999;
-    border-bottom: 2px solid #999;
+    
     width: 1000px;
     height: 1000px;
     font-size: 10px;
@@ -10,27 +9,37 @@ body{
 }
 
 div{
+    border-right: 2px solid #999;
+    border-bottom: 2px solid #999;
     background: #ededed;
     padding: 20px;
     font-size: 20px;
 }
+
 .percent{
     width: 50%;
     height: 50%;
     background: red;
     margin: 10px;
+    font-size: 500%;
 }
-.em{
-    background: red;
-    width: 0.5em;
-    height: 0.5em;
 
+.em{
+    background: green;
+    width: 10em;
+    height: 10em;
+    margin: 10px;
+    font-size: 500%;  
 }
+
 .rem{
-    background: red;
-    width: 0.5rem;
-    height: 0.5rem;
+    background: blue;
+    width: 31.25rem;
+    height: 31.25rem;
+    margin: 10px;
+    font-size: 500%;
 }
+
 h1{
     font-family:'Times New Roman', Times, serif;
     font-weight: 5px;
