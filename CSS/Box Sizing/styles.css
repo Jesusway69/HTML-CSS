@@ -1,14 +1,20 @@
 body{
     margin: 0;
+   background: #f3a;
 }
 
 .box{
-    width: 100px;
-    height: 100px;
-    background: red;
+    width: 500px;
+    height: 300px;
+    background: #fff8;
     margin: 10px;
-    border: 10px solid black;
-
+    border: 3px solid black;
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1em;
+    box-sizing: content-box;
+    background-size: 100%;
 }
 
 .default-box{
@@ -18,5 +24,6 @@ body{
 
 .new-box{
     box-sizing: border-box;
-    padding: 30px;    
+    padding: 2em;  
+     
 }
