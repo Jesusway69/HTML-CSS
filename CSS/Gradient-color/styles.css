@@ -1,0 +1,34 @@
+
+body{
+background-color: azure;
+margin: 0;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color:white;
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div{
+    height: 256px;
+    width: 256px;
+    margin: 10px;  
+}
+
+.div1{
+    background: linear-gradient(#277a, transparent); 
+}
+.div2{
+    background: linear-gradient(to left, #52ca, transparent);
+}
+.div3{
+    background: linear-gradient(#f5d,transparent,#148);
+}
+.div4{
+    background: radial-gradient(red,yellow);
+}
+.div5{
+background: conic-gradient(black, grey);
+}

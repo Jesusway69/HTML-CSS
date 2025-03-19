@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color:black;
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div{
+    height: 256px;
+    width: 256px;
+    margin: 100px;  
+}
+
+.div1{
+    background: #e2e2e2;
+    box-shadow:10px 10px 30px 0px #000a;
+    
+    /*Valores de box.shadow: ancho derecha, ancho abajo, desenfoque, expansión, color*/
+}
+
+.div2{
+    background: #dedede;
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.2;
+    font-family: Verdana,Tahoma, sans-serif;
+    text-shadow: 1px 1px 5px rgb(49, 49, 85);
+    /*Valores de text.shadow: ancho derecha, ancho abajo, desenfoque, color*/
+    box-shadow: 2px 2px 5px rgb(49, 49, 85);
+}
