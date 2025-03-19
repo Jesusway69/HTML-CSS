@@ -10,10 +10,20 @@ h1{
     color:black;
     font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.jpg{
+    width: 100px;
+    border-radius: 8px;
+    box-shadow:10px 10px 30px 0px #000f;
+}
+.png{
+    width: 130px;
+    filter: drop-shadow(1px 1px 2px #000f);
+}
 div{
     height: 256px;
     width: 256px;
-    margin: 100px;  
+    margin: 100px; 
+    text-align: center;
 }
 
 .div1{
@@ -32,4 +42,17 @@ div{
     text-shadow: 1px 1px 5px rgb(49, 49, 85);
     /*Valores de text.shadow: ancho derecha, ancho abajo, desenfoque, color*/
     box-shadow: 2px 2px 5px rgb(49, 49, 85);
+}
+.div3{
+    background: #dddddd;
+    box-shadow:10px 10px 30px 0px #222f;
+    text-shadow: 2px 2px 3px  #0007;
+
+}
+
+.div4{
+    background: #dddddd;
+    box-shadow:10px 10px 30px 0px #222f;
+    text-shadow: 2px 2px 3px  #0007;
+
 }
