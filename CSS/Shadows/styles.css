@@ -19,6 +19,11 @@ h1{
     width: 130px;
     filter: drop-shadow(1px 1px 2px #000f);
 }
+
+.svg{
+    width: 130px;
+    filter: drop-shadow(3px 3px 5px #000f);
+}
 div{
     height: 256px;
     width: 256px;
@@ -55,4 +60,10 @@ div{
     box-shadow:10px 10px 30px 0px #222f;
     text-shadow: 2px 2px 3px  #0007;
 
+}
+
+.div5{
+    background: #dddddd;
+    box-shadow:10px 10px 30px 0px #222f;
+    text-shadow: 2px 2px 3px  #0007;
 }
