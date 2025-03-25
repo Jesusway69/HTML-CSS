@@ -16,8 +16,19 @@ form{
     margin-top: 50px;
     box-shadow: 10px 10px 25px 10px #555;
     border-radius: 5px;
-    
 }
+
+.form2{
+    background: #333;
+    color: #ededed;
+    max-width: 500;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 10px 10px 25px 10px #555;
+    border-radius: 5px;
+}
+    
+
 input{
    width: 100%;
    box-sizing: border-box;
