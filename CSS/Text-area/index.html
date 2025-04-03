@@ -10,19 +10,30 @@
         <h2>Formulario de contacto</h2>
 
         <div>
-            <input type="text" placeholder="nombre">
+            <label>Nombre<input type="text" placeholder="Pepe"></label>    
         </div>
 
         <div>
-            <input type="email" placeholder="email ">
+            <label for="Email">Email</label>
+            <input type="email" placeholder="pepe@gmail.com " id="Email">
         </div>
         <div>
-            <textarea type="text" placeholder="texto...."></textarea>
+            <label for="Text">Texto</label>
+            <textarea type="text" placeholder="érase una vez..." id="Text"></textarea>
+<!--Propiedades booleanas para text area (no necesitan valores)
+-readonly (no permite escritura pero sí focus y la información que contiene se envía)
+-disabled (no permite escritura ni focus y la información no se envía)-->
+        </div>
+        <div>
+            <label>Acepto los términos y condiciones <input type="checkbox" class="checkbox"></label>
         </div>
 
     </form>
-
-
 </body>
 </head>
 </html>
+
+<!--La propiedad for del label enlaza con el id del textarea para hacer focus
+en este último al clicar en el primero (ejemplos email y text)
+ aunque si se mete el placeholder dentro de las etiquetas label
+  no es necesario  (ejemplo Nombre)-->
