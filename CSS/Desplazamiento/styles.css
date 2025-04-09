@@ -1,0 +1,16 @@
+img{
+    width: 450px;
+    height: 250px;
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 3px #000f);
+}
+
+
+body{
+    background-color: #dfdfdf;
+}
+
+
+.item1{
+    background-color: transparent;
+}
