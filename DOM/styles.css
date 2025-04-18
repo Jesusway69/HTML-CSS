@@ -1,11 +1,16 @@
-h1{
+h1 ,h2{
     text-decoration: double;
     text-align: center;
     color: blue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-input{
+#itemInput {
+    text-align: center;
+    margin-left: 42%;
+    margin-top: 100px;
+}
+#filterInput{
     text-align: center;
     margin-left: 42%;
 }
