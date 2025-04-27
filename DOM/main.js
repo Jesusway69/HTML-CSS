@@ -3,7 +3,6 @@ const itemInput = document.getElementById("itemInput")
 const addButton = document.querySelector(".addButton")
 const dynamicList = document.querySelector(".dynamicList")
 const filterInput = document.getElementById("filterInput")
-const filterButton = document.getElementsByClassName("filterButton")
 const list = document.getElementsByTagName("ul")
 
 
