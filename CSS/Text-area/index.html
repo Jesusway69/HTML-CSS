@@ -8,7 +8,7 @@
     <form>
 
         <h2>Formulario de contacto</h2>
-
+        <!--SIMPLE INPUTS-->
         <div>
             <label>Nombre<input type="text" placeholder="Pepe"></label>    
         </div>
@@ -17,6 +17,8 @@
             <label for="Email">Email</label>
             <input type="email" placeholder="pepe@gmail.com " id="Email">
         </div>
+
+        <!--TEXT AREA-->
         <div>
             <label for="Text">Texto</label>
             <textarea type="text" placeholder="érase una vez..." id="Text"></textarea>
@@ -24,9 +26,36 @@
 -readonly (no permite escritura pero sí focus y la información que contiene se envía)
 -disabled (no permite escritura ni focus y la información no se envía)-->
         </div>
+
+        <!--SELECT & OPTION-->
+        <div>
+            <label for="Opciones">Opciones
+                <select name="options">
+                    <option value="send">Enviar</option>
+                    <option value="keep">Guardar</option>
+                    <option value="delete">Borrar</option>
+                </select> 
+            </label>
+        </div>
+        
+        <!--DATALIST & OPTION-->
+        <div>
+            <label for="Referente">Referente
+                <input list="referente" name="referente">
+                <datalist name="options">
+                    <option>Web</option>
+                    <option>Amigo/familiar/compañero</option>
+                    <option>Otro</option>
+                </datalist> 
+            </label>
+        </div>
+
+        <!--CHECKBOX-->
         <div>
             <label>Acepto los términos y condiciones <input type="checkbox" class="checkbox"></label>
         </div>
+        
+        
 
     </form>
 </body>
